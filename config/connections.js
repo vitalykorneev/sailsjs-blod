@@ -28,9 +28,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  localDiskDb: {
-    adapter: 'sails-disk'
-  },
+  // localDiskDb: {
+  //   adapter: 'sails-disk'
+  // },
 
   /***************************************************************************
   *                                                                          *
@@ -47,6 +47,16 @@ module.exports.connections = {
   //   password: 'YOUR_MYSQL_PASSWORD', //optional
   //   database: 'YOUR_MYSQL_DB' //optional
   // },
+
+  mysql: {
+    adapter: 'sails-mysql',
+    module    : 'sails-mysql',
+    host      : 'localhost',
+    port      : 3306,
+    user      : 'vitaly',
+    password  : 'pass',
+    database  : 'blog'
+  },
 
   /***************************************************************************
   *                                                                          *
