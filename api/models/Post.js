@@ -12,6 +12,9 @@ module.exports = {
     user: {
       model: 'User'
     },
+    title: {
+      type: 'string'
+    },
     content: {
       type: 'string'
     }

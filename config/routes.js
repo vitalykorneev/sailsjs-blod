@@ -39,6 +39,8 @@ module.exports.routes = {
   // Auth
   'post /login': 'AuthController.login',
 
+  // Posts
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
