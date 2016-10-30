@@ -16,7 +16,7 @@ module.exports = {
       type: 'string'
     },
     content: {
-      type: 'string'
+      type: 'text'
     }
   }
 };
